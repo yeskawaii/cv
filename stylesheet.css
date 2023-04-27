@@ -7,6 +7,32 @@
 body{
     font-family: 'Muli',sans-serif;
     background-color: aliceblue;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(58, 58, 58);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header  .personal{
+    border-radius: 50%;
+    height: 25vh;
+}
+
+header td{
+    padding-left: 5vw;
+}
+
+.personal:hover{
+    border-radius: 25%;
+    height: 50vh;
+    transition: 1s;
 }
 
 .container{
